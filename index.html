@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distrito Sanitário Eldorado - Painéis de Análise e Pesquisas</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        .link-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none; /* Garante que o link não tenha sublinhado */
+        }
+        .link-card:hover {
+            transform: translateY(-5px );
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .section-title {
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Cabeçalho da Página Inicial -->
+    <header class="bg-blue-900 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-8 text-center">
+            <i class="fas fa-chart-line text-5xl mb-4"></i>
+            <h1 class="text-4xl font-bold">
+                Distrito Sanitário Eldorado
+            </h1>
+            <p class="text-xl text-blue-200 mt-2">
+                Painéis Criados para Análise e Pesquisas
+            </p>
+            <p class="text-lg text-blue-300 mt-1">
+                Diretora: Wandha Karine dos Santos
+            </p>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container mx-auto px-6 py-12">
+        
+        <!-- Seção de Painéis de Análise -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center section-title">Painéis de Análise e Pesquisas</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="https://marcacaodse.github.io/total-geral-de-atendimentos/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+                    <div class="bg-blue-100 text-blue-600 rounded-full p-4 mb-4">
+                        <i class="fas fa-clipboard-list fa-2x"></i>
+                    </div>
+                    <h2 class="text-xl font-semibold text-gray-800">Sistema Vivver</h2>
+                    <p class="text-gray-600 mt-2">Registros de atendimentos e dados do sistema Vivver.</p>
+                </a>
+
+                <a href="https://marcacaodse.github.io/censoibgedistritoeldorado/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+                    <div class="bg-green-100 text-green-600 rounded-full p-4 mb-4">
+                        <i class="fas fa-users fa-2x"></i>
+                    </div>
+                    <h2 class="text-xl font-semibold text-gray-800">Censo IBGE</h2>
+                    <p class="text-gray-600 mt-2">Dados demográficos e censo populacional do distrito.</p>
+                </a>
+
+                <a href="https://marcacaodse.github.io/ouvidoria/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-4 mb-4">
+                        <i class="fas fa-comments fa-2x"></i>
+                    </div>
+                    <h2 class="text-xl font-semibold text-gray-800">Indicadores Ouvidoria</h2>
+                    <p class="text-gray-600 mt-2">Análise de indicadores e relatórios da ouvidoria.</p>
+                </a>
+
+                <a href="https://marcacaodse.github.io/totaldeprofissionaisativos/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+                    <div class="bg-teal-100 text-teal-600 rounded-full p-4 mb-4">
+                        <i class="fas fa-user-md fa-2x"></i>
+                    </div>
+                    <h2 class="text-xl font-semibold text-gray-800">Profissionais Ativos Total</h2>
+                    <p class="text-gray-600 mt-2">Controle total de profissionais ativos no distrito.</p>
+                </a>
+
+                <a href="https://marcacaodse.github.io/distrito-eldorado-ferramentas/index.html" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+                    <div class="bg-orange-100 text-orange-600 rounded-full p-4 mb-4">
+                        <i class="fas fa-phone fa-2x"></i>
+                    </div>
+                    <h2 class="text-xl font-semibold text-gray-800">Contatos Telefônicos Recepção</h2>
+                    <p class="text-gray-600 mt-2">Diretório de contatos telefônicos da recepção.</p>
+                </a>
+
+                <a href="https://marcacaodse.github.io/distrito-eldorado-site-2/index.html" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+                    <div class="bg-red-100 text-red-600 rounded-full p-4 mb-4">
+                        <i class="fas fa-building fa-2x"></i>
+                    </div>
+                    <h2 class="text-xl font-semibold text-gray-800">Administrativos Unidades</h2>
+                    <p class="text-gray-600 mt-2">Informações administrativas das unidades de saúde.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção de Links Externos -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center section-title">Links Externos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <a href="https://c2abn462.caspio.com/dp/6c2d80009c527701e6554cedb0d2" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"><div class="bg-blue-100 text-blue-600 rounded-full p-4 mb-4"><i class="fas fa-search fa-2x"></i></div><h3 class="text-xl font-semibold text-gray-800">Pesquisa por Endereços</h3><p class="text-gray-600 mt-2">Busca de endereços e localização.</p></a>
+                <a href="https://cnesadm.datasus.gov.br/cnesadm/publico/usuarios/cadastro" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"><div class="bg-green-100 text-green-600 rounded-full p-4 mb-4"><i class="fas fa-id-card fa-2x"></i></div><h3 class="text-xl font-semibold text-gray-800">Pesquisa CNS</h3><p class="text-gray-600 mt-2">Consulta do Cartão Nacional de Saúde.</p></a>
+                <a href="https://portal.contagem.mg.gov.br/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"><div class="bg-purple-100 text-purple-600 rounded-full p-4 mb-4"><i class="fas fa-city fa-2x"></i></div><h3 class="text-xl font-semibold text-gray-800">Prefeitura de Contagem</h3><p class="text-gray-600 mt-2">Portal oficial da Prefeitura.</p></a>
+                <a href="https://www.contagem.mg.gov.br/novoportal/saude/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"><div class="bg-red-100 text-red-600 rounded-full p-4 mb-4"><i class="fas fa-heartbeat fa-2x"></i></div><h3 class="text-xl font-semibold text-gray-800">Secretaria de Saúde</h3><p class="text-gray-600 mt-2">Portal da Secretaria Municipal de Saúde.</p></a>
+                <a href="https://www.mg.gov.br/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"><div class="bg-yellow-100 text-yellow-600 rounded-full p-4 mb-4"><i class="fas fa-landmark fa-2x"></i></div><h3 class="text-xl font-semibold text-gray-800">Governo de Minas</h3><p class="text-gray-600 mt-2">Portal oficial do Estado de Minas Gerais.</p></a>
+                <a href="https://www.saude.mg.gov.br/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"><div class="bg-blue-100 text-blue-600 rounded-full p-4 mb-4"><i class="fas fa-hospital fa-2x"></i></div><h3 class="text-xl font-semibold text-gray-800">Secretaria Estadual de Saúde</h3><p class="text-gray-600 mt-2">Portal oficial da SES-MG.</p></a>
+                <a href="https://www.gov.br/saude/pt-br" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"><div class="bg-green-100 text-green-600 rounded-full p-4 mb-4"><i class="fas fa-flag fa-2x"></i></div><h3 class="text-xl font-semibold text-gray-800">Ministério da Saúde</h3><p class="text-gray-600 mt-2">Portal oficial do Ministério da Saúde.</p></a>
+                <a href="https://datasus.saude.gov.br/" target="_blank" class="link-card bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center"><div class="bg-indigo-100 text-indigo-600 rounded-full p-4 mb-4"><i class="fas fa-database fa-2x"></i></div><h3 class="text-xl font-semibold text-gray-800">DATASUS</h3><p class="text-gray-600 mt-2">Dados e informações de saúde.</p></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-blue-900 text-white py-6 mt-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">
+                <i class="fas fa-user-edit mr-1"></i>
+                Página criada por Ana P. A. Silva/Suporte Vivver Distrito Eldorado MATR.201704
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
